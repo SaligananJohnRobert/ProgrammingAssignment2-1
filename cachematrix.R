@@ -14,7 +14,7 @@ inv<-NULL ## This will initialize the inv as NULL and hold the value of the matr
         get<-function()x ## This defines the function
         setinverse<-function(inverse)inv<<-inverse ## This assign the values of inv to the parent environment
         getinverse<-function()inv ## This calls the value of the inv
-        list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) ## This is needed to refer
+        list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) ## This is needed to reference
 
 
 ## Write a short comment describing this function
